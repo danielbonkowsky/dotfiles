@@ -14,6 +14,38 @@
 	email = danielbonkowsky@gmail.com
 
 
+[branch]
+
+ 	# Show most recently changed branches first.
+	sort = -committerdate   
+
+
+[core]
+
+	# Make `git rebase` safer on macOS.
+	# More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
+	trustctime = false
+
+	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
+	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
+	precomposeunicode = false
+
+	# Speed up commands involving untracked files such as `git status`.
+	# https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true
+
+
+[push]
+
+	# https://git-scm.com/docs/git-config#git-config-pushdefault
+	default = simple
+
+
+[init]
+
+	defaultBranch = main
+
+
 [color]
 
     # Enables and customizes color output if the terminal supports it. 
