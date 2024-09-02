@@ -1,5 +1,6 @@
 [filter "lfs"]
 
+    # Configures Git LFS for handling large files
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -8,19 +9,21 @@
 
 [user]
 
+    # Sets identity for Git commits
 	name = danielbonkowsky
 	email = danielbonkowsky@gmail.com
 
 
 [color]
 
-	# Use colors in Git commands that are capable of colored output when
-	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+    # Enables and customizes color output if the terminal supports it. 
+    # This is the default setting in Git ≥ 1.8.4
 	ui = auto
 
 
 [color "branch"]
 
+    # Color scheme for branch-related commands
 	current = yellow reverse
 	local = yellow
 	remote = green
@@ -28,6 +31,7 @@
 
 [color "diff"]
 
+    # Color scheme for diff outputs
 	meta = yellow bold
 	frag = magenta bold # line info
 	old = red           # deletions
@@ -36,6 +40,8 @@
 
 [color "status"]
 
+    # Color scheme for status outputs
 	added = yellow
 	changed = green
 	untracked = cyan
+    deleted = red
