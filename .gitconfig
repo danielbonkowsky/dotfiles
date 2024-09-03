@@ -1,3 +1,8 @@
+[alias]
+
+    # Fancy git log
+    lg = log --all --graph --decorate --oneline
+
 [filter "lfs"]
 
     # Configures Git LFS for handling large files
