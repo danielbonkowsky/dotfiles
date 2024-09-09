@@ -4,3 +4,6 @@ bindkey -v
 # Set the default editor to be vim
 export EDITOR=vim
 export VISUAL=vim
+
+# Change the ls colors
+export LSCOLORS="GxfxhxhxCxhxhxCxCxGxGx"
