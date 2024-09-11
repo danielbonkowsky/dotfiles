@@ -78,3 +78,6 @@ set autoindent
 set tabstop=4
 set expandtab
 set shiftwidth=4
+
+" highlight the current line
+set cursorline
