@@ -70,7 +70,7 @@ set mouse+=a
 " show file in titlebar
 set title
 
-"set tabs and indentation
+" set tabs and indentation
 set autoindent
 set tabstop=4
 set expandtab
