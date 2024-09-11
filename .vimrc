@@ -35,6 +35,9 @@ set number
 " Always show the status line at the bottom, even if you only have one window open.
 set laststatus=2
 
+" Custom status line
+set statusline=%h%m%r\ %f\ \|\ %{&filetype}%=line\ %l\ \|\ col\ %c\ \|\ %P\ 
+
 " The backspace key has slightly unintuitive behavior by default. For example,
 " by default, you can't backspace before the insertion point set with 'i'.
 " This configuration makes backspace behave more reasonably, in that you can
