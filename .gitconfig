@@ -83,4 +83,4 @@
 	added = yellow
 	changed = green
 	untracked = cyan
-    deleted = red
+	deleted = red
