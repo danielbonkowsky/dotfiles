@@ -3,3 +3,6 @@
 
 # Adds Ruby gems (packages) to $PATH to make them executable globally
 export PATH=$HOME/.gem/bin:$PATH
+
+# Add dbin to PATH
+export PATH=~/dbin:$PATH
