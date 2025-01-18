@@ -81,3 +81,6 @@ set shiftwidth=4
 
 " highlight the current line
 set cursorline
+
+" add line highlight at 80 characters
+set colorcolumn=80
